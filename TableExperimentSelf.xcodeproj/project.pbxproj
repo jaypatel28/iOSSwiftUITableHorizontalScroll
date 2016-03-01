@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6932B62A1C73C3FC00703DCB /* AnotherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6932B6291C73C3FC00703DCB /* AnotherTableViewCell.swift */; };
 		69D77B391C19F81A00DDEB4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D77B381C19F81A00DDEB4F /* AppDelegate.swift */; };
 		69D77B3B1C19F81A00DDEB4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D77B3A1C19F81A00DDEB4F /* ViewController.swift */; };
 		69D77B3E1C19F81A00DDEB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D77B3C1C19F81A00DDEB4F /* Main.storyboard */; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6932B6291C73C3FC00703DCB /* AnotherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherTableViewCell.swift; sourceTree = "<group>"; };
 		69D77B351C19F81A00DDEB4F /* TableExperimentSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableExperimentSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D77B381C19F81A00DDEB4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69D77B3A1C19F81A00DDEB4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				69D77B3C1C19F81A00DDEB4F /* Main.storyboard */,
 				69D77B681C1A03D500DDEB4F /* CollectionViewCell.swift */,
 				69D77B661C19FCD600DDEB4F /* TableViewCell.swift */,
-				6932B6291C73C3FC00703DCB /* AnotherTableViewCell.swift */,
 				69D77B3F1C19F81A00DDEB4F /* Assets.xcassets */,
 				69D77B411C19F81A00DDEB4F /* LaunchScreen.storyboard */,
 				69D77B441C19F81A00DDEB4F /* Info.plist */,
@@ -269,7 +266,6 @@
 				69D77B3B1C19F81A00DDEB4F /* ViewController.swift in Sources */,
 				69D77B691C1A03D500DDEB4F /* CollectionViewCell.swift in Sources */,
 				69D77B391C19F81A00DDEB4F /* AppDelegate.swift in Sources */,
-				6932B62A1C73C3FC00703DCB /* AnotherTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

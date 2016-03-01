@@ -36,29 +36,11 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
             let cell = self.tableView.dequeueReusableCellWithIdentifier("AnotherCell")
             cell?.textLabel?.text = "Title Label \(indexPath.row)"
             cell?.detailTextLabel?.text = "Detail: \(indexPath.row)"
-            
-//            cell.buttonTest.tag = indexPath.row
-//            cell.buttonTest.addTarget(self, action: "logAction:", forControlEvents: .TouchUpInside)
-//            
             return cell!
 
         }
 
     }
-
-    
-    @IBAction func logAction(sender: UIButton) {
-        
-//        let titleString = self.objects[sender.tag] as? String
-        
-        let firstActivityItem = "Hello! From Table Button"
-        
-        let activityViewController : UIActivityViewController = UIActivityViewController(activityItems: [firstActivityItem], applicationActivities: nil)
-        
-        self.presentViewController(activityViewController, animated: true, completion: nil)
-        
-    }
-
 
 }
 
