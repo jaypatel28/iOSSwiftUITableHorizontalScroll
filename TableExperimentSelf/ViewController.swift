@@ -41,6 +41,13 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         }
 
     }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        if indexPath.row != 0 {
+            return 44.0
+        }
+        return 70
+    }
 
 }
 
